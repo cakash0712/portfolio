@@ -1,0 +1,28 @@
+.about{
+    color: blueviolet;
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+.about1{
+    color: white;
+    margin-left: 140px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.edu{
+    color: red;
+    margin-left: 100px;
+}
+
+.edu1{
+    color: white;
+    margin-left: 140px;
+}
+
+.eds{
+    display: flex;
+}
+

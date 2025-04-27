@@ -1,0 +1,49 @@
+ ul{
+    display: flex;
+    margin-left: 120px;
+ }
+
+ .link,.link1{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+ }
+
+ ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    
+    
+ }
+
+ .link1{
+    margin-left:1200px;
+   
+    
+    
+ }
+
+ 
+body{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.753),black);
+}
+
+li:hover .link {
+    color: greenyellow;
+    
+}
+
+li:hover .link1 {
+   color: greenyellow;
+  
+   
+}
+
+
+.head{
+   color: white;
+   margin-left: 40px;
+}
+
+

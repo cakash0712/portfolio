@@ -1,0 +1,151 @@
+.skill{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+hr{
+    width: 70px;
+    height: 1px;
+    background-color: red;
+    margin-top: -10px;
+}
+
+.para{
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    
+}
+
+.logo1{
+    
+    margin-top: 80px;
+    margin-left: 100px;
+    color: white;
+    line-height: 25px;
+}
+
+
+
+
+.imag2{
+    width: 100px;
+    height: 100px;
+    margin-left: 195px;
+    animation: moveDown 1s forwards;
+}
+
+@keyframes moveDown {
+    from {
+      transform: translateY(0); /* Start at original position */
+    }
+    to {
+      transform: translateY(35px); /* Move up 50 pixels */
+    }
+  }
+.imag3{
+    width: 100px;
+    height: 100px;
+    margin-left: 195px;
+    animation: moveDown 1s forwards;
+}
+
+.imag4{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+   
+}
+
+
+.imag5{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+}
+
+
+.imag6{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+}
+
+
+
+
+
+.logo2{
+    
+    margin-top: 80px;
+    margin-left: 100px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.logo3{
+    
+    margin-top: 80px;
+    margin-left: 90px;
+    color: white;
+    line-height: 25px;
+}
+
+.icon2{
+    display: flex;
+}
+
+
+.logo4{
+    
+    margin-top: 80px;
+    margin-left: 300px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.logo5{
+    
+    margin-top: 80px;
+    margin-left: 300px;
+    color: white;
+    line-height: 30px;
+}
+
+.para1{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.para2{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para3{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para4{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para5{
+    justify-content: left;
+    margin-top: 40px;
+}

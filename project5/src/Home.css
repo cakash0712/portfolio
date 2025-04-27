@@ -1,0 +1,54 @@
+
+
+
+.head1{
+    color: white;
+    margin-left: 450px;
+    margin-top: 220px;
+   
+}
+
+.head1 p{
+    line-height: 28px;
+    font-size: 18px;
+    
+}
+
+.head2{
+    display: flex;
+    margin-left: 460px;
+    color: whitesmoke;
+
+}
+
+.sr{
+    margin-left: 10px;
+    font-size: 30px;
+    color: aqua;
+}
+
+.ss{
+    font-size: 30px;
+    color: white;
+}
+
+.imag{
+    width: 400px;
+    height: 400px;
+    margin-left: 180px;
+    margin-top: 180px;
+    border-radius: 250px;
+    border-left: 10px  solid orange;
+    border-top: 10px  solid orange;
+    animation: fade 2s infinite alternate;
+   
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+
+ 

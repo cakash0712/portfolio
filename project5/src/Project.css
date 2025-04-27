@@ -1,0 +1,168 @@
+.proj{
+    color: orangered;
+    text-align: center;
+}
+
+.pro1{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+    
+}
+
+.pr1{
+    margin-left: 400px;
+    margin-top: 40px;
+    color: olivedrab;
+}
+
+.pro2{
+    margin-left: 450px;
+    color: whitesmoke;
+}
+
+.pro3{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+
+.project{
+    display: flex;
+    margin-left: 120px;
+   
+    
+
+  
+}
+
+
+.ca{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 60px;
+    
+    transition: transform 0.3s ease;
+}
+
+.ca:hover {
+    transform: scale(1.5);
+  }
+
+
+.view2{
+    margin-left: 680px;
+   margin-top: 40px;
+    text-decoration: none;
+   width: 120px;
+    height: 40px;
+    background-color: coral;
+    border-radius: 7px;
+    
+}
+
+.view2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.project1{
+    display: flex;
+    margin-left: 120px;
+   
+    
+
+  
+}
+
+.pr11{
+    margin-left: 400px;
+    margin-top: 40px;
+    color: orange;
+}
+
+
+.pro11{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+    
+}
+
+
+.pro12{
+    margin-left: 450px;
+    color: whitesmoke;
+}
+
+.pro13{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+
+.cal{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 60px;
+    border-radius: 90%;
+    transition: transform 0.3s ease;
+
+}
+
+
+.cal:hover {
+    transform: scale(1.5);
+  }
+
+.project2{
+    display: flex;
+    margin-left: 120px;
+   
+    
+
+  
+}
+
+.pr13{
+    margin-left: 400px;
+    margin-top: 40px;
+    color: aqua;
+}
+
+
+.pro21{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+    
+}
+
+
+.pro22{
+    margin-left: 450px;
+    color: whitesmoke;
+}
+
+.pro23{
+    margin-left: 450px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+
+.ap{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 60px;
+    transition: transform 0.3s ease;
+   
+    
+}
+.ap:hover {
+    transform: scale(1.5);
+  }
+
