@@ -1,0 +1,209 @@
+.skill{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+hr{
+    width: 70px;
+    height: 1px;
+    background-color: red;
+    margin-top: -10px;
+}
+
+.para{
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    
+}
+
+.logo1{
+    
+    margin-top: 80px;
+    margin-left: 100px;
+    color: white;
+    line-height: 25px;
+}
+
+
+
+
+.imag2{
+    width: 100px;
+    height: 100px;
+    margin-left: 195px;
+    animation: moveDown 1s forwards;
+}
+
+@keyframes moveDown {
+    from {
+      transform: translateY(0); /* Start at original position */
+    }
+    to {
+      transform: translateY(35px); /* Move up 50 pixels */
+    }
+  }
+.imag3{
+    width: 100px;
+    height: 100px;
+    margin-left: 195px;
+    animation: moveDown 1s forwards;
+}
+
+.imag4{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+   
+}
+
+
+.imag5{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+}
+
+
+.imag6{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    animation: moveDown 1s forwards;
+}
+
+
+
+
+
+.logo2{
+    
+    margin-top: 80px;
+    margin-left: 100px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.logo3{
+    
+    margin-top: 80px;
+    margin-left: 90px;
+    color: white;
+    line-height: 25px;
+}
+
+.icon2{
+    display: flex;
+}
+
+
+.logo4{
+    
+    margin-top: 80px;
+    margin-left: 300px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.logo5{
+    
+    margin-top: 80px;
+    margin-left: 300px;
+    color: white;
+    line-height: 30px;
+}
+
+.para1{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.para2{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para3{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para4{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+.para5{
+    justify-content: left;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skill {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    hr {
+        width: 50px;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .para {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .icon,
+    .icon2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo1,
+    .logo2,
+    .logo3,
+    .logo4,
+    .logo5 {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .imag2,
+    .imag3,
+    .imag4,
+    .imag5,
+    .imag6 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    .para1,
+    .para2,
+    .para3,
+    .para4,
+    .para5 {
+        margin: 20px 10px;
+        text-align: left;
+        margin-top: 40px;
+    }
+}
