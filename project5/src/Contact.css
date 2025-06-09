@@ -91,3 +91,52 @@
     color: white;
     font-size: 20px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .input {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .name,
+    .email,
+    .text {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .ent {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100px;
+    }
+
+    .cont,
+    .cont2 {
+        margin-left: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .ss1,
+    .sr1,
+    .p1,
+    .p2 {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .p3 {
+        font-size: 16px;
+        text-align: center;
+    }
+}

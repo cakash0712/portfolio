@@ -59,7 +59,16 @@
     height: 40px;
     background-color: coral;
     border-radius: 7px;
+    cursor: pointer;
     
+}
+
+.view2:hover{
+    transform: scale(1.2);
+}
+
+.view2:hover a{
+    color: black;
 }
 
 .view2 a{
@@ -165,4 +174,59 @@
 .ap:hover {
     transform: scale(1.5);
   }
+
+
+
+  @media screen and (max-width: 768px) {
+    .proj {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .project,
+    .project1,
+    .project2 {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .pr1,
+    .pr11,
+    .pr13,
+    .pro1,
+    .pro2,
+    .pro3,
+    .pro11,
+    .pro12,
+    .pro13,
+    .pro21,
+    .pro22,
+    .pro23 {
+        margin-left: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ca,
+    .cal,
+    .ap {
+        margin: 20px auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .view2 {
+        margin: 30px auto;
+        display: block;
+        text-align: center;
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .view2 a {
+        font-size: 16px;
+    }
+}
 

@@ -51,4 +51,36 @@
 
 
 
- 
+  @media screen and (max-width: 768px) {
+    .head1 {
+        margin-left: 20px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .head1 p {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .head2 {
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sr, .ss {
+        font-size: 24px;
+        margin-left: 5px;
+    }
+
+    .imag {
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+        margin-right: auto;
+        margin-top: 150px;
+        display: block;
+        border-radius: 125px;
+    }
+}

@@ -149,3 +149,61 @@ hr{
     justify-content: left;
     margin-top: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .skill {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    hr {
+        width: 50px;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .para {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .icon,
+    .icon2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo1,
+    .logo2,
+    .logo3,
+    .logo4,
+    .logo5 {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .imag2,
+    .imag3,
+    .imag4,
+    .imag5,
+    .imag6 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    .para1,
+    .para2,
+    .para3,
+    .para4,
+    .para5 {
+        margin: 20px 10px;
+        text-align: left;
+        margin-top: 40px;
+    }
+}
